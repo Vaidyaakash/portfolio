@@ -15,7 +15,7 @@ const Block = (props) => {
                 <li className='js'>{js}</li>
                 <li className='react'>{react}</li>
             </ul>
-            <a href={url} target="_blank">
+            <a href={url} target="blank">
                 <button>Visit Now</button>
             </a>
         </div>
