@@ -5,7 +5,7 @@ const Block = (props) => {
 
     return (
         <div className='block'>
-            <img src={img} />
+            <img src={img}  alt="Not Found"/>
             <div className='project'>{project}</div>
             <div className="discription">{discription}</div>
             <div className='technology'>TECHNOLOGY USED</div>

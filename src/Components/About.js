@@ -24,7 +24,7 @@ const About = () => {
                     </ul>
                 </div>
                 <div>
-                    <img src={img} />
+                    <img src={img}  alt="Not Found"/>
                 </div>
             </div>
         </div>
