@@ -524,8 +524,10 @@ a{
     line-height: 35px;
     width: 98vw;
   }
-  .about_me li{
+  .about_dis li, .myname{
     width: 95vw;
+    padding: 0 1.2rem ;
+    box-sizing: border-box;
     text-align: justify;
   }
   /* .header{

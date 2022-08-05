@@ -1,7 +1,7 @@
 import React from 'react'
 import Block from './Block'
 import galary from "../img/galary.png"
-import htmlPage from "../img/htmlPage.png"
+import amazon from "../img/amazon-clone.png"
 import digiClock from "../img/digiClock.png"
 import reactBlog from "../img/reactBlog.png"
 
@@ -11,12 +11,14 @@ const Projects = () => {
             <h1>My Recent Works</h1>
             <div className='blog_data'>
                 <Block
-                    img={htmlPage}
-                    project="HTML page"
-                    discription="Backtracking created by using HTML. It shows how a normal text looks on windows, By using all tags in HTML and giving some styles in it."
+                    img={amazon}
+                    project="Amazon Clone"
+                    discription="In this project mainly i used react hooks like useContext, useReducer, useState, etc. This is dummy of amazon clone in this clone i use some functionality like slider, carousel, add to cart, etc"
                     html={<i className="fa-brands fa-html5"></i>}
                     css={<i className="fa-brands fa-css3-alt"></i>}
-                    url="https://vaidyaakash.github.io/myworks/"
+                    js={<i className="fa-brands fa-js-square"></i>}
+                    react={<i className="fa-brands fa-react"></i>}
+                    url="https://amazon-clone-i.netlify.app/"
                 />
                 <Block
                     img={galary}
